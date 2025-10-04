@@ -14,7 +14,7 @@ public class Top10Leaderboard : MonoBehaviour
     [SerializeField] private TMP_InputField nameInputField;     // Input field for player to enter name
     [SerializeField] private Button submitNameButton;            // Button to submit player name
 
-    private string publicLeaderboardKey = "69210677d0be5b455b560d325d54acfa6c76d4dfc5a4ee6b8f5c6656f00a4a37"; // Your leaderboard key
+    private string publicLeaderboardKey = "Enter Your Key"; // Your leaderboard key
     private string playerName;
     private const string PlayerNameKey = "SavedPlayerName";
     private const float refreshInterval = 30f; // Refresh interval in seconds
